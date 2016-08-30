@@ -1,8 +1,6 @@
 applications:
-  name: demohubot
+- name: demohubot
   memory: 128M
   services:
     ${name}-db:
       type: redis
-env:
-  HUBOT_SLACK_TOKEN: <TOKEN> 
