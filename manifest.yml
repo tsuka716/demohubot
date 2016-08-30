@@ -1,6 +1,7 @@
 applications:
 - name: demohubot
   memory: 256M
+  url: []
   services:
     ${name}-db:
       type: redis
